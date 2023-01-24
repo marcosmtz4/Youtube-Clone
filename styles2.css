@@ -1,0 +1,163 @@
+* {
+    font-family: "Roboto","Arial",sans-serif;
+    text-decoration: none;
+}
+a:link, a:visited, a:active{
+    color: inherit;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+svg{
+    max-width: 3.3rem;
+    max-height: 2.4rem;
+    border: none;
+}
+
+/* Nav */
+.burgeryt{
+    display: flex;
+    max-width: 10%;
+    margin-left: 5px;
+}
+.burger{
+    margin-left: 0.6rem;
+    transform: scale(0.8);
+}
+.burger:hover{
+    background-color: rgb(201, 201, 201);
+    border-radius: 1rem;
+}
+/*Logo de youtube svg*/
+.logo svg{
+    margin-left: 3rem;
+    transform: scale(1.8);
+}
+.test{
+    display: flex;
+    align-items: center;
+}
+.searchmic{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.searchbar{
+    width: 25rem;
+    height: 2rem;
+    border-radius: 25px 0px 0px 25px;
+    border-color: #ededed;
+    padding-left: 1rem;
+}
+.searchbutton{
+    border-radius: 0px 25px 25px 0px;
+    border: none;
+    background-color: #f8f8f8;
+    height: 38px;
+}
+.mic{
+    max-height: 20px;
+}
+.mic:hover{
+    background-color: rgb(201, 201, 201);
+    border-radius: 3rem;
+}
+.user{
+    display: flex;
+}
+.user svg{
+    margin-right: 1.3rem;
+    transform: scale(0.6);
+}
+.userpic{
+    border-radius: 3rem;
+    margin-top: 0.2rem;
+    margin-right: 1.4rem;
+}
+
+/* ASIDE */
+.asidebox{
+    display: flex;
+    flex-direction: column;
+    height: 0px;
+    max-width: 4rem;
+}
+.asideitem{
+    font-size: 10px;
+    padding: 0.5rem;
+    text-align: center;
+}
+.asidebox svg{
+    transform: scale(0.6);
+}
+.asideitem:hover{
+    background-color: rgb(201, 201, 201);
+    border-radius: 1rem;
+}
+
+/* Recomendaciones */
+.recomd{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-top: 0.6rem;
+    margin-right: 1.3rem;
+    max-width: 95%;
+    overflow: hidden;
+}
+.recomd a button{
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+    font-size: 0.7rem;
+    width: 100%;
+    margin-bottom: 0.8rem;
+}
+button p{
+    padding: 0.1rem 0.1rem 0.1rem 0.1rem ;
+}
+button:hover{
+    background-color: rgb(201, 201, 201);
+}
+/* Main */
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-left: 3.9rem;
+    width: 93%;
+    padding-left: 1rem;
+}
+main .video img{
+    border-radius:  1.4rem;
+    max-width: 18rem;
+}
+.infovideo{
+    display: flex;
+}
+.infovideo img{
+    height: 2.3rem;
+    width: 2.3rem;
+    margin: 10px 10px 0px 0px;
+}
+.infovideo h2{
+    height: 0.5rem;
+    width: 14rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.titulo{
+    padding: 0 0 0.5rem 0rem;
+}
+.textinfo p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #606060;
+}
+.vistasfecha{
+    display: flex;
+    gap: 6px;
+    margin-top: -20px;
+    padding-bottom: 1rem;
+}
